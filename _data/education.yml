@@ -1,8 +1,17 @@
-- name: Harvard University
-  dates: 2010 - 2013
-  qualification: BSc Computer Science
+- name: Western Washington University
+  dates: September 2018 -  December 2020
+  qualification: MS, Computer Science
   quote: >
-    Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+    "Active minds changing lives"
+  description: | # this will include new lines to allow paragraphs
+    During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+
+    I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+
+- name:
+  dates: September 2015 - June 2019
+  qualification: BS, Computer Science
+  quote: >
   description: | # this will include new lines to allow paragraphs
     During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
 

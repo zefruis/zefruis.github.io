@@ -1,7 +1,32 @@
-- name: Super awesome project
-  link: github.com/sproogen
-  github: sproogen/resume-theme
+- name: Ballot Return Rate Model
+  link: https://github.com/S-Toad/Voter-Predictive-Model
+  github: https://github.com/S-Toad/Voter-Predictive-Model
   quote: >
-    This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+    July 2018 - Septermber 2018
   description: | # this will include new lines to allow paragraphs
-    I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+    Trained a DNN to determine if a individual would return their ballot during a election. Contract work for the Ferndale Schools Bond Committee. Raw data was obtained from the Whatcom County auditor's office and parsed into a set of 53 features used to train a DNN. 85% accuracy was obtained with high precision, recall, and F1 scores. This information was used to determine the most promising areas to focus phone banking, door to door canvassing, and other campaign efforts more efficiently.
+
+- name: Day In The Life
+  link: https://github.com/cbrintnall/dayinthelife
+  github: https://github.com/cbrintnall/dayinthelife
+  quote: >
+    Febrary 2018
+  description: | # this will include new lines to allow paragraphs
+    Created in 24 hours on February 10th/11th for the WWU 2018 Hackathon. Written with a backed in Django. We created a site that is meant to expose people in the world to cultures and lifestyles other than their own. Pictures are displayed in a randomized block on the page where the user may use the main slider to set a time view to limit the display of photos. This time view can set to either be by "moment" or by time. This dictates rather the set time is the local time at which all pictures were taken, or a global time based on the users current local time.
+
+- name: Twitter LM
+  link:
+  github: https://github.com/zefruis
+  quote: >
+    June 2017 - September 2017
+  description: | # this will include new lines to allow paragraphs
+    My attempt to utilize twitter data to create automated tweets that reflect a community based on their common hashtag groupings.
+
+    The next feature I'd like to implement in this project is Witten-Bell Discounting or at least some form of smoothing for the N-grams. 
+
+    Overall structure is to listen for all new tweets posted to twitter under a specific hashtag (#sports, #Seahawks) and use the data to create a language model from which N-gram based predictions may be made. This may be utilized to try and predict common completions given some history or, given some set of relating tags, emulate the tweeting habits of a group of users.
+
+    This project is currently split into two distinct parts:
+    1. The language model and N-gram based predictions which is written in Java. This takes the output from the Twitter listener and a N-gram level as its inputs.
+
+    2. The Twitter listener which is implemented in Python along with help from the Tweepy library. This takes a set of hashtags as input and will output a text file that contains formatted tweets that have had several tags inserted into the tweets (mostly tweet and sentence boundaries)
